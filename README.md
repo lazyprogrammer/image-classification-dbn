@@ -3,6 +3,8 @@ image-classification-dbn
 
 Image classification using a Deep Belief Network with multiple layers of Restricted Boltzmann Machines.
 
+Written in C# and uses the Accord.NET machine learning library.
+
 Lazily threw together some code to create a deep net where weights are initialized via unsupervised training in the hidden layers and then trained further using backpropagation.
 
 The data is included, I used Caltech 101.
